@@ -145,7 +145,7 @@ class M_Sugar_ExternalFort_B3  extends MY_Model {
 //			  $this -> em -> persist($this -> ish);
 //			  $this -> em -> save();
 
-
+			/*
 			  $qb = $this->em->createQueryBuilder();
 			  $q = $qb->update('models\Entities\entities_sugar\E_Sugar_ExternalFort_B3', 'u')
         	  ->set('u.dates', '?1')
@@ -158,6 +158,7 @@ class M_Sugar_ExternalFort_B3  extends MY_Model {
         	  $p = $q->execute();
 			  
 			  echo $id . " " . $dates . " " . $suggestionsForImprovement; 
+			 * */
 	}
  
 }//end of class ExtternalFortifiedB2
